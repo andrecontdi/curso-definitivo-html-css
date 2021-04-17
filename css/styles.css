@@ -1,14 +1,29 @@
-p {
-  color: red;
-  font-size: 30px;
+body {
+  background-color: #263238;
+  color: #ffffff;
+  font-family: "Ubuntu Mono", monospace;
+  padding: 16px;
 }
 
-.parrafo {
-  color: orange;
-  font-size: 20px;
+header {
+  background-color: #37474f;
+  padding: 8px;
+  text-align: center;
 }
 
-#texto {
-  color: blue;
-  font-size: 10px;
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 12.5px;
+  height: 75px;
+}
+
+footer {
+  background-color: #37474f;
+  color: #a7ffeb;
+  padding: 4px;
+  text-align: center;
 }
