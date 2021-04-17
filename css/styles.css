@@ -1,37 +1,22 @@
+/* Selector universal, con él podemos reiniciar estilos por defecto del navegador */
+/* AGREGALO EN TODOS TUS PROYECTOS. */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: #263238;
   color: #ffffff;
   font-family: "Ubuntu Mono", monospace;
-  padding: 16px;
 }
 
-.main-nav {
-  margin-top: 10px;
-  list-style: none;
-  padding: 0;
-  background-color: #37474f;
-}
-
-.main-nav__item {
-  display: inline-block;
-  padding: 16px;
-  text-align: center;
-  width: 120px;
-}
-
-.main-nav__item a {
-  color: #ffffff;
-  border-radius: 2px;
-  padding: 12px;
-  text-decoration: none;
-}
-
-/* Si quieres que ambas psudo clases contengan el mismo estilo, 
-lo puedes hacer de esta manera y no tienes que escibir el mismo estilo dos veces. */
-.main-nav__item:hover,
-.main-nav__item:active {
-  background-color: #546e7a;
-  font-weight: bolder;
+main {
+  border: 10px solid #607d8b;
+  height: 500px;
+  padding: 20px 35px;
+  width: 100%;
 }
 
 footer {
