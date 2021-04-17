@@ -2,57 +2,35 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Contiene mi lista del supermercado" />
+    <meta name="description" content="Clase de formularios" />
     <meta name="robots" content="index-follow" />
     <meta name="viewport" content="witdh=device-witdh, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Superlista</title>
+    <title>Formularios</title>
   </head>
   <body>
     <header>
-      <h1>Mi lista del super</h1>
+      <h1>Formulario</h1>
     </header>
     <main>
-      <section>
-        <h3>Abarrotes</h3>
-        <ul>
-          <li>
-            <a href="https://www.comedera.com/receta-para-hacer-un-pie-de-manzana/" target="_blank">Harina de trigo</a>
-            <figure>
-              <img src="./img/harina-de-trigo.jpg" alt="harina-de-trigo" />
-            </figure>
-          </li>
-          <li>
-            <a href="https://kanikama.com.ar/receta/super-sandwich-de-kani-kama-ahumado" target="_blank">Pan de molde</a>
-            <figure>
-              <img src="./img/sandwich_bread.jpg" alt="sandwich_bread" />
-            </figure>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3>Congelados</h3>
-        <ul>
-          <li>
-            <a href="https://kanikama.com.ar/receta/super-sandwich-de-kani-kama-ahumado" target="_blank">Kanikama</a>
-            <figure>
-              <img src="./img/kanikama.jpg" alt="kanikama" />
-            </figure>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3>Frutas</h3>
-        <ul>
-          <li>
-            <a href="https://www.comedera.com/receta-para-hacer-un-pie-de-manzana/" target="_blank">Manzana</a>
-            <figure>
-              <img src="./img/apple.jpg" alt="apple" />
-            </figure>
-          </li>
-        </ul>
-      </section>
+      <form action="">
+        <label for="nombre">
+          <span>¿Cuál es tu nombre?</span>
+          <input type="text" id="nombre" />
+        </label>
+        <br />
+        <label for="inicio-platzi">
+          <span>¿Qué día comenzaste en Platzi?</span>
+          <input type="date" id="inicio-platzi" />
+        </label>
+        <br />
+        <label for="horario">
+          <span>¿En qué horario estudias?</span>
+          <input type="time" id="horario" />
+        </label>
+      </form>
     </main>
+    <br />
     <footer>by <strong>andrecontdi</strong></footer>
   </body>
 </html>
