@@ -14,9 +14,24 @@
     </header>
     <main>
       <form action="">
-        <label for="calendario">
-          <span>Calendario</span>
-          <input type="datetime-local" id="calendario" />
+        <label for="nombre">
+          <span>¿Cuál es tu nombre?</span>
+          <input type="text" name="nombre" id="nombre" autocomplete="name" required/>
+        </label>
+        <br />
+        <label for="email">
+          <span>¿Cuál es tu email?</span>
+          <input type="email" name="email" id="email" autocomplete="email" required/>
+        </label>
+        <br />
+        <label for="pais">
+          <span>¿Cuál es tu país?</span>
+          <input type="text" name="pais" id="pais" autocomplete="country" required/>
+        </label>
+        <br />
+        <label for="codigo postal">
+          <span>¿Cuál es tu codigo postal?</span>
+          <input type="text" name="codigo-postal" id="codigo-postal" autocomplete="postal-code" required/>
         </label>
         <br />
         <br />
