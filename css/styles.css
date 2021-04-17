@@ -1,0 +1,14 @@
+p {
+  color: red;
+  font-size: 30px;
+}
+
+.parrafo {
+  color: orange;
+  font-size: 20px;
+}
+
+#texto {
+  color: blue;
+  font-size: 10px;
+}
